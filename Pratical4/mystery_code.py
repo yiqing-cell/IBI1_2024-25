@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:
+# Answer:rolling two dices repeatedly until the two showing same number and show the number of trial
 
 # Import libraries
 # randint allows drawing a random number,
@@ -10,12 +10,12 @@ from random import randint
 # e.g. ceil(4.2)=5
 from math import ceil
 
-progress=0
-while progress>=0:
-	progress+=1
-	first_n = randint(1,6)
-	second_n = randint(1,6)
-	if first_n == second_n:
-		print(progress)
-		break
+progress=0 #Track the number of attempts
+while progress>=0: 
+	progress+=1 #Increment attempt counter
+	first_n = randint(1,6) #roll the first dice
+	second_n = randint(1,6) #roll the secnd dice
+	if first_n == second_n: #two dice show the same number
+		print(progress) #show the number of trial
+		break #Exit the loop
 
