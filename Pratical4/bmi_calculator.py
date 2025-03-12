@@ -25,7 +25,7 @@ else:
 # Format and print the result
 output = (
     "Your BMI is " 
-    + str(bmi)  # Round to 2 decimal places
+    + str(bmi)  
     + ", which classifies you as "
     + category
     + "."
