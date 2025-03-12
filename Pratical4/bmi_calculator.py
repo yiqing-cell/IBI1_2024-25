@@ -1,10 +1,10 @@
 # Project Plan (Pseudocode):
 # 1. Store weight (kg) and height (m) as variables
-# 2. Calculate BMI using formula: BMI = weight / (height^2)
+# 2. Calculate BMI using formula: BMI = weight / (height**2)
 # 3. Determine category based on BMI:
-#    - BMI < 18.5 → Underweight
-#    - 18.5 <= BMI < 30 → Normal weight
-#    - BMI >= 30 → Obese
+#     BMI < 18.5 → Underweight
+#     18.5 <= BMI < 30 → Normal weight
+#     BMI >= 30 → Obese
 # 4. Output a sentence with BMI value and category
 
 # Store weight and height (example values)
