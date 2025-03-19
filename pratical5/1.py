@@ -11,7 +11,7 @@ plt.title('Top 5 Programming Language Popularity') #name the bar
 plt.ylim(0, 70) #limit the y value from 0 to 70
 plt.show() #show the bar
 
-requested_language = 'Python'  
+requested_language = 'Python'  #a variable of the requested	activity that can be modified
 percentage = language_percentage.get(requested_language)
 if percentage is not None:
     print(f"\nThe percentage of developers who use {requested_language} is {percentage}%.")
