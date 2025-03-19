@@ -1,8 +1,12 @@
 #pseudocode:
-#1.create dictionaries to collect data
-#2.sort the two and create two lists of sorted data
-#3.read the values of x label and y label
-#4.create two pie charts and name them
+# 1. Create dictionaries to collect UK and China population data
+# 2. Sort the population values and create two lists of sorted data
+# 3. Print the sorted data for verification
+# 4. Import the plotting library
+# 5. Create the UK pie chart
+# 6. Create the China pie chart
+# 7. Display the pie charts
+
 
 #create a dictionary includes UK data
 uk_data = {'England': 57.11, 'Wales': 3.13, 'Northern Ireland': 1.91, 'Scotland': 5.45}
