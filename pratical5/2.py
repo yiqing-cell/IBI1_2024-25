@@ -1,6 +1,12 @@
-# UK data: country names and populations
+#pseudocode:
+#1.create dictionaries to collect data
+#2.sort the two and create two lists of sorted data
+#3.read the values of x label and y label
+#4.create two pie charts and name them
+
+#create a dictionary includes UK data
 uk_data = {'England': 57.11, 'Wales': 3.13, 'Northern Ireland': 1.91, 'Scotland': 5.45}
-# China data: provinces bordering Zhejiang and populations
+#create a dictionary China data
 china_data = {'Fujian': 41.88, 'Jiangxi': 45.28, 'Anhui': 61.27, 'Jiangsu': 85.15}
 # Sort UK populations
 sorted_uk = sorted(uk_data.values())
