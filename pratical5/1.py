@@ -1,8 +1,15 @@
 #pseudocode:
 #1.create a dictionary to collect data
-#2.read the values of x label and y label
-#3.create the bar and name it
-#4.choose a requested language to check its percentage.
+#2.Print the dictionary to verify the data
+#3.Import the plotting library
+#4.Extract keys (languages) and values (percentages) for the x-axis and y-axis
+#5.Create a bar chart: x-axis = languages, -axis = percentage, bar color = pink
+#6.Add labels and title to the chart
+#7.Set the y-axis limit to range from 0 to 70
+#8.Display the bar chart
+#9.Define a variable for the requested language
+#10.Retrieve the percentage of developers using the requested language
+#11.Check if the language exists in the dictionary
 
 language_percentage = {'JavaScript': 62.3, 'HTML': 52.9, 'Python': 51, 'SQL': 51, 'TypeScript': 38.5} #create the dictionary
 print(language_percentage) #show the dictionary
