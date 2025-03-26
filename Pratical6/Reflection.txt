@@ -1,0 +1,2 @@
+It is a little difficult.
+But I learn some new codes. For example,I learn to calcilate the probablity using np.random.choice(range(2),4,p=[0.8,0.2]). And find the position using np.where().
