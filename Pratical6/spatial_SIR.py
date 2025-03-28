@@ -11,7 +11,7 @@ time_steps = 100  # the total number of time steps
 #1. Initialize a 100×100 population array with one random infection.  
 #2. Identify infected individuals using coordinate detection.  
 #3. Process recoveries by transitioning infected individuals to recovered state with probability γ.  
-#4. Spread infection to susceptible neighbors in four directions with probability β.  
+#4. Spread infection to susceptible neighbors in 8 directions with probability β.  
 #5. Update the array.  
 #6. Visualize the process using heatmap.  
 #7. Save snapshots at key time points (t=0,10,50,99).   
@@ -35,7 +35,7 @@ for t in range(time_steps): # Iterates over each time step
             new_population[x, y] = 2
         
         # stimulate disease spreading
-        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]: #find the neighbors of infected person
+        for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, 1), (-1, -1), (1, -1), (1, 1)]: #find the neighbors of infected person
             nx, ny = x + dx, y + dy
             if 0 <= nx < size and 0 <= ny < size and population[nx, ny] == 0:
                 if np.random.rand() < beta:
