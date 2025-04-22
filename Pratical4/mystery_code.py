@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:rolling two dices repeatedly until the two showing same number and show the number of trial
+# Answer:rolling two dices, which can pick a number from 1-6,repeatedly until the two showing same number and show the number of trial
 
 # Import libraries
 # randint allows drawing a random number,
