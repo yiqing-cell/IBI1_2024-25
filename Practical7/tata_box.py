@@ -11,7 +11,7 @@ for line in infile:
     if line.startswith('>'):
         if current_header and re.search(r'TATA[AT]A[AT]', current_sequence):
                 gene_name = re.findall(r'gene:([^\s]+)', current_header)
-                outfile.write(f'>{gene_name[0]}\n{current_sequence}\n')
+                outfile.write('>{}\n{}\n'.format(gene_name[0], current_sequence))
         current_header = line
         current_sequence = ''
     else:
@@ -19,7 +19,6 @@ for line in infile:
     
 if current_header and re.search(r'TATA[AT]A[AT]', current_sequence):
     gene_name = re.findall(r'gene:([^\s]+)', current_header)
-    outfile.write(f'>{gene_name[0]}\n{current_sequence}\n')
-
+    outfile.write('>{}\n{}\n'.format(gene_name[0], current_sequence))
 infile.close()
 outfile.close()
