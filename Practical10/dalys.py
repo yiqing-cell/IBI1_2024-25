@@ -11,7 +11,7 @@ print(dalys_data.iloc[0:10,2]) #1999  was the 10th year with DALYs data recorded
 
 is_1990 = dalys_data["Year"] == 1990
 dalys_1990 = dalys_data.loc[is_1990, "DALYs"]
-print("\n1990年所有国家的DALYs:")
+print("\nDALYs of all countries in 1990")
 print(dalys_1990)
 
 uk = dalys_data.loc[dalys_data.Entity=="United Kingdom", ["DALYs", "Year"]]
