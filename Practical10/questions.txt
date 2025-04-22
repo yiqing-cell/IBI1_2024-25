@@ -1,0 +1,7 @@
+Question: How has the relationship between the DALYs in China and the UK changed over time?Are they becoming more similar, less similar?
+line：31
+Result: They become similar. China's DALYs gradually narrowed the gap from being significantly higher than that of the United Kingdom. 
+        It indicates that the disease burden of the two countries is significantly converging. The main reasons may include the reform of China's medical system and the aging challenge in the UK.
+
+
+
